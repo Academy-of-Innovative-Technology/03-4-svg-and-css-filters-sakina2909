@@ -6,3 +6,54 @@ html {
 img {
   width: 100px;
 }
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color :black;
+}
+
+filter {
+  margin-top: 20px;
+}
+
+#imgBlur {
+  filter:blur(10px);
+} 
+
+#imgBrightness{
+  filter:brightness(.7);
+}
+
+#imgContrast{
+  filter:contrast(200%);
+}
+
+#imgDrop Shadow{
+  filter:drop-shadow(16px 16px 20px blue);
+}
+
+#imgGrayscale{
+  filter:grayscale(50%);
+}
+
+#imgHue Rotate{
+  filter:hue-rotate(90deg);
+}
+
+#imgInvert{
+  filter:invert(75%);
+}
+#imgOpacity{
+filter:opacity(25%);
+}
+
+#imgSaturate{
+  filter:saturate(30%);
+}
+
+#imgSepia{
+filter:sepia(60%);
+}
+#imgURL{
+  filter:url(20px);
+}
