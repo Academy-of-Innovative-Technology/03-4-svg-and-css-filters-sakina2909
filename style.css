@@ -12,48 +12,47 @@ h1 {
   color :black;
 }
 
-filter {
-  margin-top: 20px;
+path{
+  filter: url (#filter);
 }
 
-#imgBlur {
+.blur {
   filter:blur(10px);
 } 
 
-#imgBrightness{
+.brightness{
   filter:brightness(.7);
 }
 
-#imgContrast{
+.contrast{
   filter:contrast(200%);
 }
 
-#imgDrop Shadow{
+.Drop Shadow{
   filter:drop-shadow(16px 16px 20px blue);
 }
 
-#imgGrayscale{
+.Grayscale{
   filter:grayscale(50%);
 }
 
-#imgHue Rotate{
+.Hue Rotate{
   filter:hue-rotate(90deg);
 }
 
-#imgInvert{
+.Invert{
   filter:invert(75%);
 }
-#imgOpacity{
+.Opacity{
 filter:opacity(25%);
 }
-
-#imgSaturate{
+.saturate{
   filter:saturate(30%);
 }
 
-#imgSepia{
+.Sepia{
 filter:sepia(60%);
 }
-#imgURL{
+.URL{
   filter:url(20px);
 }
