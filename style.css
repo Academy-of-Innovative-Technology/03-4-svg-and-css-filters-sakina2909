@@ -13,7 +13,7 @@ h1 {
 }
 
 path{
-  filter: url (#filter);
+  filter:url(#filter);
 }
 
 .blur {
@@ -52,7 +52,4 @@ filter:opacity(25%);
 
 .Sepia{
 filter:sepia(60%);
-}
-.URL{
-  filter:url(20px);
 }
